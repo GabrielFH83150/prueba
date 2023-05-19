@@ -1,53 +1,78 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Seguros XYZ</title>
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylo.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Seguros</a></li>
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
-      <h1>Seguros XYZ</h1>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olympus Seguros</title>
+    <link href="https://fonts.googleapis.com/css?super=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="textos-hero">
+            <h1>Olympus Seguros</h1>
+            <p>Olympus Seguros ofrece una amplia variedad de seguros multiriesgo para proteger lo que más le importa. Nuestro equipo de expertos está aquí para ayudarlo a seleccionar la cobertura adecuada para sus necesidades únicas. Trabajamos con compañías de seguros confiables y respetadas para ofrecer precios competitivos sin comprometer la calidad del servicio. Contáctenos hoy mismo para obtener más información sobre cómo podemos ayudarlo a proteger lo que más le importa.</p>
+            <a href="#contacto">Contactarnos</a>
+        </div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
+        </svg></div>
     </header>
-    <main>
-      <section id="inicio">
-        <h2>Bienvenidos a Seguros XYZ</h2>
-        <p>Ofrecemos una amplia variedad de seguros para cubrir sus necesidades. Contáctenos hoy mismo para obtener una cotización.</p>
-        <a href="#" class="cta-button">Obtener una cotización</a>
-      </section>
-      <section id="seguros">
-        <h2>Nuestros Seguros</h2>
-        <ul>
-          <li><a href="#">Seguro de auto</a></li>
-          <li><a href="#">Seguro de hogar</a></li>
-          <li><a href="#">Seguro de vida</a></li>
-          <li><a href="#">Seguro de salud</a></li>
-        </ul>
-      </section>
-      <section id="acerca-de">
-        <h2>Acerca de Seguros XYZ</h2>
-        <p>Somos una empresa líder en el sector de seguros con más de 20 años de experiencia. Nuestro objetivo es brindar a nuestros clientes la mejor protección y servicio posible.</p>
-      </section>
-      <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puede contactarnos por teléfono o correo electrónico:</p>
-        <ul>
-          <li>Teléfono: 555-1234</li>
-          <li>Correo electrónico: info@segurosxyz.com</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; Seguros XYZ - Todos los derechos reservados</p>
+
+    <section class="wave-contenedor website">
+        <img src="img/logo.jpg" alt="">
+        <div class="contenedor-textos-main">
+            <h2 class="titulo left">Protegemos lo que mas te importa, tu tranquilidad</h2>
+            <a href="" class="cta">Ver Mas información</a>
+        </div>
+    </section>
+    
+    <section class="info">
+        <div class="contenedor">
+            <h2 class="titulo left">Mas abajo Veras nuestro productos</h2>
+            <p>La mejor experiencia la viven los clientes satisfechos </p>
+        </div>
+    </section>
+    
+    <section class="cards contenedor">
+        <h2 class="titulo">Servicio</h2>
+        <div class="content-cards">
+            <article class="card">
+                <i class="far fa-clone"></i>
+                <h3>Title Card</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="" class="cta">Learn more</a>
+            </article>
+            <article class="card">
+                <i class="fas fa-database"></i>
+                <h3>Title Card</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="" class="cta">Learn more</a>
+            </article>
+            <article class="card">
+                <i class="far fa-object-group"></i>
+                <h3>Title Card</h3>
+                <p>Lorem ipsum, dolor </p>
+            </article>
+            </div>
+    </section>
+    <footer id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Contactano</h2>
+
+            <form action="conexion.php" class="form" method="post">
+
+                <input class="input"  type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input class="input"  type="email" name="email" id="email" placeholder="Email">
+                <textarea  class="input" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input class="input"  type="submit" value="Enviar">
+            </form>
+        </div>
     </footer>
-  </body>
+
+
+</body>
 </html>
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
